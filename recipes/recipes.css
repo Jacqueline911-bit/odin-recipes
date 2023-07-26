@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-banner {
+    text-align: center;
+  }
+  
+  .image-banner h1 {
+    margin-bottom: 10px;
+  }
+  
+  .image-banner img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-description {
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+  
+  .ingredients-section,
+  .steps {
+    margin-top: 30px;
+  }
+  
+  .ingredients-section h2,
+  .steps h2 {
+    margin-bottom: 10px;
+  }
+  
+  .ingredients-section ul,
+  .steps ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .ingredients-section li,
+  .steps li {
+    margin-bottom: 8px;
+  }
+  
+  .steps li {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Additional styling for garnishes */
+  .steps p {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 0;
+  }
+  
+  .steps p:last-child {
+    margin-top: 5px;
+  }
+  
+  /* Style the links (e.g., navigation links in the header) */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  

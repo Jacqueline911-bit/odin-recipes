@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.all-recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #333;
+  margin: 20px;
+  display: block;
+}
+
+img {
+  max-width: 500px;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+
+/* CSS for the "More" button */
+button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* Text color (white) */
+  padding: 10px 20px; /* Padding around the button text */
+  font-size: 16px; /* Font size of the button text */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for the "More" button */
+button:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
